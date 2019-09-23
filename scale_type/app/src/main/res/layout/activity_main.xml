@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btnCenter"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorPrimary"
+            android:onClick="center"
+            android:text="CENTER" />
+
+        <Button
+            android:id="@+id/btnCenter_Crop"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorPrimary"
+            android:onClick="center_Crop"
+            android:text="CENTER_CROP" />
+
+        <Button
+            android:id="@+id/btnCenter_Inside"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorPrimary"
+            android:onClick="center_Inside"
+            android:text="CENTER_INSIDE" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <Button
+            android:id="@+id/btnFit_Center"
+            android:layout_width="98dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorPrimary"
+            android:onClick="fit_Center"
+            android:text="FIT_CENTER" />
+
+        <Button
+            android:id="@+id/btnFit_End"
+            android:layout_width="99dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorPrimary"
+            android:onClick="fit_End"
+            android:text="FIT_END" />
+
+        <Button
+            android:id="@+id/btnFit_Start"
+            android:layout_width="99dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorPrimary"
+            android:onClick="fit_Start"
+            android:text="fit_Start" />
+
+        <Button
+            android:id="@+id/btnFit_XY"
+            android:layout_width="99dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorPrimary"
+            android:onClick="fit_XY"
+            android:text="FIT_XY" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <Button
+            android:id="@+id/btnMatrix"
+            android:layout_width="406dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorPrimary"
+            android:onClick="matrix"
+            android:text="MATRIX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnAlpha00"
+            android:layout_width="406dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha00"
+            android:text="ALPHA 0%" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <Button
+            android:id="@+id/btnAlpha10"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha10"
+            android:text="ALPHA 10%" />
+
+        <Button
+            android:id="@+id/btnAlpha20"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha20"
+            android:text="ALPHA 20%" />
+
+        <Button
+            android:id="@+id/btnAlpha30"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha30"
+            android:text="ALPHA 30%" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <Button
+            android:id="@+id/btnAlpha40"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha40"
+            android:text="Alpha 40%" />
+
+        <Button
+            android:id="@+id/btnAlpha50"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha50"
+            android:text="Alpha 50%" />
+
+        <Button
+            android:id="@+id/btnAlpha60"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha60"
+            android:text="Alpha 60%" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <Button
+            android:id="@+id/btnAlpha70"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha70"
+            android:text="Alpha 70%" />
+
+        <Button
+            android:id="@+id/btnAlpha80"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha80"
+            android:text="Alpha 80%" />
+
+        <Button
+            android:id="@+id/btnAlpha90"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha90"
+            android:text="Alpha 90%" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <Button
+            android:id="@+id/btnAlpha100"
+            android:layout_width="406dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/colorAccent"
+            android:onClick="setImageAlpha100"
+            android:text="Alpha 100%" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Previous" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="444dp">
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageOne"
+                android:layout_width="match_parent"
+                android:layout_height="226dp"
+                android:layout_marginBottom="10sp"
+                android:padding="8dp"
+                android:src="@drawable/image_one" />
+
+            <ImageView
+                android:id="@+id/imageTwo"
+                android:layout_width="match_parent"
+                android:layout_height="226dp"
+                android:layout_marginBottom="10sp"
+                android:padding="8dp"
+                android:src="@drawable/image_two" />
+
+            <ImageView
+                android:id="@+id/imageThree"
+                android:layout_width="match_parent"
+                android:layout_height="226dp"
+                android:layout_marginBottom="10sp"
+                android:padding="8dp"
+                android:src="@drawable/image_three" />
+        </ViewFlipper>
+    </LinearLayout>
+</LinearLayout>

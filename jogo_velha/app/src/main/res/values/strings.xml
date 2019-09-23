@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jogo da Velha</string>
+    <string name="titulo">JOGO DA VELHA</string>
+    <string name="modo_de_jogo">MODO DE JOGO:</string>
+    <string name="jogador_vs_jogador">Jogador vs Jogador</string>
+    <string name="jogador_vs_computador">Jogador vs Computador</string>
+    <string name="iniciar">Iniciar</string>
+</resources>

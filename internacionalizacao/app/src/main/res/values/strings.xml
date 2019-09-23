@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">internacionalizacao</string>
+    <string name="e_mail">E-mail</string>
+    <string name="digite_seu_e_mail">Digite seu e-mail</string>
+    <string name="login">Login</string>
+    <string name="digite_seu_login">Digite seu login</string>
+    <string name="senha">Senha</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="digite_seu_nome_completo">Digite seu nome completo</string>
+    <string name="sexo">Sexo</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="repita_a_senha">Repita a senha</string>
+    <string name="confirme_sua_senha">Confirme sua senha</string>
+    <string name="nacionalidade">Nacionalidade</string>
+    <string name="informe_sua_nacionalidade">Informe sua nacionalidade</string>
+    <string name="escolaridade">Escolaridade</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string-array name="escolaridade">
+        <item>Primeiro Grau Incompleto</item>
+        <item>Primeiro Grau Completo</item>
+        <item>Segundo Grau Incompleto</item>
+        <item>Segundo Grau Completo</item>
+        <item>Técnico Incompleto</item>
+        <item>Técnico Completo</item>
+        <item>Ensino Superior Incompleto</item>
+        <item>Ensino Superior Completo</item>
+    </string-array>
+</resources>

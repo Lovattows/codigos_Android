@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="paddingTop">5dp</dimen>
+    <dimen name="marginTop">5dp</dimen>
+    <dimen name="textSize" tools:ignore="SmallSp">10sp</dimen>
+    <dimen name="layoutHeightButton">30dp</dimen>
+</resources>
