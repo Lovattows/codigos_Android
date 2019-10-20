@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">navegacao_telas</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="digite_seu_nome_completo">Digite seu nome completo</string>
+    <string name="estado_civil">Estado Civil</string>
+    <string name="casado">Casado</string>
+    <string name="solteiro">Solteiro</string>
+    <string name="g_nero">Gênero</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="bebida_preferida">Bebida preferida</string>
+    <string name="vinho">Vinho</string>
+    <string name="cerveja">Cerveja</string>
+    <string name="refrigerante">Refrigerante</string>
+    <string name="entrar">Entrar</string>
+    <string name="nome_completo_second">Nome Completo:</string>
+    <string name="estado_civil_second">Estado Civil:</string>
+    <string name="g_nero_second">Gênero:</string>
+    <string name="bebida_favorita_second">Bebida Favorita:</string>
+    <string name="telefone_parceiro_second">Telefone Parceiro:</string>
+    <string name="voltar">Voltar</string>
+</resources>

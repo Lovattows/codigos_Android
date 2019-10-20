@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewNomeCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/nome_completo_second" />
+
+    <TextView
+        android:id="@+id/textViewEstadoCivil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/estado_civil_second" />
+
+    <TextView
+        android:id="@+id/textViewGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/g_nero_second" />
+
+    <TextView
+        android:id="@+id/textViewBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/bebida_favorita_second" />
+
+    <ImageView
+        android:id="@+id/imageViewBebida"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        app:srcCompat="@drawable/refrigerante" />
+
+    <TextView
+        android:id="@+id/textViewNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/telefone_parceiro_second" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar"
+        android:onClick="mainActivity"
+        tools:ignore="OnClick" />
+</LinearLayout>
