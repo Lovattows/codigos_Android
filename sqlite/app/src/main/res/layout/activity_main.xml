@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/concession_ria_lvtda"
+        android:textSize="30sp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/nome"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="@string/digite_o_nome_do_ve_culo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/placa"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/placa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="@string/digite_a_placa_do_ve_culo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/ano"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/ano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="@string/digite_o_ano_do_ve_culo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/inserir"
+            android:onClick="inserir"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/inserir"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/alterar"
+            android:onClick="alterar"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/alterar" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/excluir"
+            android:onClick="excluir"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/excluir" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/consultar"
+            android:onClick="consultar"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/consultar" />
+
+        <TextView
+            android:id="@+id/resultados"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:ems="10"
+            android:textSize="20sp"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            tools:ignore="RtlHardcoded,TextViewEdits" />
+    </LinearLayout>
+
+</LinearLayout>

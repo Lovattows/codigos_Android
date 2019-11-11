@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">sqlite</string>
+    <string name="concession_ria_lvtda">CONCESSIONÁRIA LVTDA</string>
+    <string name="nome">NOME</string>
+    <string name="placa">PLACA</string>
+    <string name="ano">ANO</string>
+    <string name="excluir">Excluir</string>
+    <string name="consultar">Consultar</string>
+    <string name="inserir">Inserir</string>
+    <string name="alterar">Alterar</string>
+    <string name="digite_o_nome_do_ve_culo">Digite o nome do veículo</string>
+    <string name="digite_a_placa_do_ve_culo">Digite a placa do veículo</string>
+    <string name="digite_o_ano_do_ve_culo">Digite o ano do veículo</string>
+    <string name="m_todo_get">Método GET</string>
+    <string name="m_todo_post">Método POST</string>
+</resources>
